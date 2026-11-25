@@ -88,7 +88,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 const typingText = document.querySelector('.typing-text');
 const titles = [
-    'MCA Student & Aspiring IT Professional',
+    'MCA Post-Graduate & Aspiring IT Professional',
     'Full Stack Developer',
     'Machine Learning Enthusiast',
     'Problem Solver'
