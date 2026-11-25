@@ -785,6 +785,14 @@ ul {
     background: linear-gradient(135deg, #333, #181717);
 }
 
+.skill-icon.git {
+    background: linear-gradient(135deg, #f05032, #d63a1e);
+}
+
+.skill-icon.docker {
+    background: linear-gradient(135deg, #2496ed, #1d63ed);
+}
+
 .skill-icon.vscode {
     background: linear-gradient(135deg, #0078d4, #005a9e);
 }
@@ -1095,6 +1103,12 @@ ul {
     box-shadow: var(--shadow-md);
 }
 
+.internship-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+}
+
 .internship-cert-link {
   display: inline-block;
   margin-top: 10px;
@@ -1116,6 +1130,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: start;
+    flex-wrap: wrap;
     margin-bottom: var(--spacing-md);
     gap: var(--spacing-md);
 }
@@ -1164,10 +1179,10 @@ ul {
 {
     display: inline-block;
     margin-top: 10px;
-    padding: 6px 4px;
+    padding: 6px 16px;
     background: var(--gradient-primary);
     color: white;
-    border-radius: 8px;
+    border-radius: 999px;
     text-decoration: none;
     font-size: 0.9rem;
     color: var(--text-secondary);
