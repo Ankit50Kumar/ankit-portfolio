@@ -351,14 +351,6 @@ ul {
 
 .typing-text {
     display: inline-block;
-    border-right: 2px solid var(--primary);
-    animation: blink 0.7s step-end infinite;
-}
-
-@keyframes blink {
-    50% {
-        border-color: transparent;
-    }
 }
 
 .hero-description {
